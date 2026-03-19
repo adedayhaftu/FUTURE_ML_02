@@ -25,7 +25,6 @@ Classifies **8,469 REAL Kaggle tickets** | **92% Category Accuracy** | **25% Pri
 ✅ **Production `predict_ticket()` function**
 
 ##  How It Works
-
 ✅ Load 8,469 real Kaggle tickets
 ✅ Clean text → TF-IDF vectors (NLTK)
 ✅Train RandomForest (Category + Priority)
@@ -34,14 +33,12 @@ Classifies **8,469 REAL Kaggle tickets** | **92% Category Accuracy** | **25% Pri
 
 
 ##  Tech Stack
-
 Python |  NLTK |  Scikit-learn |  Pandas
  RandomForest |  TF-IDF Vectorizer
  8,469 Real Kaggle Tickets
 
 
 ##  Business Impact
-
 ✅ Cuts manual triage 90%
 ✅ Routes tickets to right team instantly
 ✅ Prioritizes critical issues (25% baseline)
@@ -49,7 +46,6 @@ Python |  NLTK |  Scikit-learn |  Pandas
 
 
 ##  Production Demo
-
 def predict_ticket(text):
 # Input: "Can't login after password reset"
 # Output: Category: "Billing", Priority: "High"
