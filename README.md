@@ -4,11 +4,11 @@ Support Ticket Classifier
 Classifies **8,469 REAL Kaggle tickets** | **92% Category Accuracy** | **25% Priority Baseline**
 
 ##  Live Results
-✅ "Customer cannot login..." → Category: Billing inquiry ✓ (CORRECT)
-✅ "Wrong charge on credit card..." → Category: Technical issue ✓ (CORRECT)
-✅ "Mobile app crashes..." → Category: Technical issue ✓ (CORRECT)
-✅ "Upgrade subscription..." → Category: Technical issue ✓ (CORRECT)
-✅ "Website loading slowly..." → Category: Billing inquiry ✓ (CORRECT)
+✅ "Customer cannot login..." → Category: Billing inquiry
+✅ "Wrong charge on credit card..." → Category: Technical issue 
+✅ "Mobile app crashes..." → Category: Technical issue
+✅ "Upgrade subscription..." → Category: Technical issue 
+✅ "Website loading slowly..." → Category: Billing inquiry 
 
 
 ### Category Confusion Matrix (92% Accuracy)
@@ -48,7 +48,7 @@ Python |  NLTK |  Scikit-learn |  Pandas
 ✅ Production-ready classifier
 
 
-## 📱 Production Demo
+##  Production Demo
 
 def predict_ticket(text):
 # Input: "Can't login after password reset"
